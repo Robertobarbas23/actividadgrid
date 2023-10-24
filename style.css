@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  padding: 1em;
+}
+header{
+  text-align: center;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.info-usuario{
+  background-color: orange;
+}
+.generador-qr{
+  background-color: brown;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.qr{
+  background-color: aqua;
+}
+.botones{
+  background-color: beige;
+}
